@@ -8,19 +8,13 @@ PhaseTensor develops Python libraries for researchers and developers in quantum 
 
 Quantum computing is our initial research focus. Our quantitative finance work focuses on point-in-time data integrity, interest-rate curve validation and calibration risk. Computational chemistry applications are under evaluation.
 
-## Current projects
+## Open-source libraries
 
-### ShotWeave — In development
+### ShotWeave
 
-ShotWeave aims to help researchers allocate a limited measurement budget across quantum circuits, particularly when measurement uncertainty differs between circuits.
+[ShotWeave](https://github.com/Phasetensor/ShotWeave) provides uniform, coefficient-weighted and adaptive shot allocation for quantum measurement experiments under fixed resource budgets. It includes uncertainty estimates, a Qiskit sampler adapter and reproducible benchmarks with explicit shot and submission accounting.
 
-The first benchmark will compare uniform, weighted, and adaptive shot allocation for a common estimation target under the following constraints:
-
-- 10,000 total shots, including preliminary measurements.
-- At most two device submissions.
-- Evaluation of estimation error, number of submissions, and total elapsed time.
-
-The objective is to determine when alternative allocation strategies improve estimation accuracy under the same experimental constraints. Performance advantages remain to be validated.
+[Release v0.1.0](https://github.com/Phasetensor/ShotWeave/releases/tag/v0.1.0) · [PyPI](https://pypi.org/project/shotweave/0.1.0/)
 
 ### BornLens
 
