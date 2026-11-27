@@ -1,0 +1,7 @@
+{
+  "name": "PhaseTensor Python CI",
+  "description": "Lint, type check, test and build scientific Python libraries.",
+  "categories": [
+    "Python"
+  ]
+}
