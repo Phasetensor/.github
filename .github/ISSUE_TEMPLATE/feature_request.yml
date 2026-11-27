@@ -1,0 +1,22 @@
+name: Research or feature proposal
+description: Propose a scientifically motivated improvement
+title: "[Proposal] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Research problem and intended users
+    validations:
+      required: true
+  - type: textarea
+    id: baseline
+    attributes:
+      label: Existing approaches and references
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Proposed solution and measurable validation criteria
+    validations:
+      required: true
