@@ -6,7 +6,7 @@
 
 PhaseTensor develops Python libraries for researchers and developers in quantum computing and computational science. Our focus is on practical research problems, statistical reliability, and reproducible experiments.
 
-Quantum computing is our initial research focus. Our quantitative finance work focuses on validating interest-rate curves and measuring calibration risk. Computational chemistry applications are under evaluation.
+Quantum computing is our initial research focus. Our quantitative finance work focuses on point-in-time data integrity, interest-rate curve validation and calibration risk. Computational chemistry applications are under evaluation.
 
 ## Current projects
 
@@ -25,6 +25,12 @@ The objective is to determine when alternative allocation strategies improve est
 ### BornLens
 
 [BornLens](https://github.com/Phasetensor/BornLens) compares the same Pauli observable on two circuit versions. It reports whether the difference is within tolerance, beyond tolerance or inconclusive. The repository includes a Qiskit simulator adapter and [reproducible benchmarks](https://github.com/Phasetensor/BornLens/tree/main/benchmarks).
+
+### VintageCheck
+
+[VintageCheck](https://github.com/Phasetensor/VintageCheck) audits point-in-time data integrity in quantitative research and backtesting. It reconstructs historical data vintages, detects future-information leakage, tracks revisions and release evidence, and distinguishes verified, invalid and unverifiable decisions.
+
+[Scientific methodology](https://github.com/Phasetensor/VintageCheck/blob/main/docs/methodology.md) · [Release v0.2.0](https://github.com/Phasetensor/VintageCheck/releases/tag/v0.2.0) · [PyPI](https://pypi.org/project/vintagecheck/0.2.0/)
 
 ### CurveMetric
 
