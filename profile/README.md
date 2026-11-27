@@ -22,9 +22,9 @@ The first benchmark will compare uniform, weighted, and adaptive shot allocation
 
 The objective is to determine when alternative allocation strategies improve estimation accuracy under the same experimental constraints. Performance advantages remain to be validated.
 
-### BornLens — Planned
+### BornLens
 
-BornLens will compare an observable measured on two versions of a quantum circuit against a predefined tolerance, accounting for statistical uncertainty. It will distinguish three outcomes: difference within tolerance, difference beyond tolerance, and insufficient evidence to reach either conclusion.
+[BornLens](https://github.com/Phasetensor/BornLens) compares the same Pauli observable on two circuit versions. It reports whether the difference is within tolerance, beyond tolerance or inconclusive. The repository includes a Qiskit simulator adapter and [reproducible benchmarks](https://github.com/Phasetensor/BornLens/tree/main/benchmarks).
 
 ## Research principles
 
@@ -35,4 +35,4 @@ BornLens will compare an observable measured on two versions of a quantum circui
 
 ## Availability
 
-The projects above are in development or planning. Installation instructions, PyPI links, and release information will be added when public releases become available.
+See each project's repository for installation instructions and release status.
