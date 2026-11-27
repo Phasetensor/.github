@@ -8,15 +8,14 @@
 | BornLens | Quantum statistical inference | [v0.3.1](https://github.com/Phasetensor/BornLens/releases/tag/v0.3.1) |
 | VintageCheck | Financial data integrity and research auditing | [v0.4.0](https://github.com/Phasetensor/VintageCheck/releases/tag/v0.4.0) |
 | CurveMetric | Fixed-income curve diagnostics and risk | [v1.5.0](https://github.com/Phasetensor/CurveMetric/releases/tag/v1.5.0) |
+| CalibMap | Quantum calibration analytics and drift | [v0.1.0](https://github.com/Phasetensor/CalibMap/releases/tag/v0.1.0) |
+| SurfaceCheck | Volatility surface diagnostics and no-arbitrage validation | [v0.1.0](https://github.com/Phasetensor/SurfaceCheck/releases/tag/v0.1.0) |
 
 Consolidation refers to the completed release cycles, not universal scientific validation or the completion of all future research.
 
-## Next planned projects
+## Current phase
 
-| Library | Proposed focus |
-| --- | --- |
-| CalibMap | Quantum calibration analytics and drift |
-| SurfaceCheck | Volatility surface diagnostics and no-arbitrage validation |
+Maintenance, reproducibility, external feedback and adoption of the six released libraries. New library development is paused.
 
 ## Subsequent candidates
 
