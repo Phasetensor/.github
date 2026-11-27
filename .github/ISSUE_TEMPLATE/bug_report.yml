@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a reproducible software or numerical issue
+title: "[Bug] "
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproducible example
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual results
+      description: Include reference values and numerical tolerances where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Library version, Python version, OS, dependencies and backend.
+    validations:
+      required: true
