@@ -22,6 +22,12 @@ PhaseTensor develops open-source Python libraries for quantum computing, quantit
 
 [Release v0.3.1](https://github.com/Phasetensor/BornLens/releases/tag/v0.3.1) · [PyPI](https://pypi.org/project/bornlens/0.3.1/) · [Scientific acceptance](https://github.com/Phasetensor/BornLens/blob/v0.3.1/docs/acceptance-report.md)
 
+#### CalibMap
+
+[CalibMap](https://github.com/Phasetensor/CalibMap) provides offline quantum calibration analytics, historical calibration reconstruction, qubit and gate stability diagnostics, readout uncertainty propagation, drift and change-point detection, topology analysis and forecasting. It integrates with ShotWeave and BornLens; provider compatibility is tested using an offline IBM Runtime snapshot.
+
+[Release v0.1.0](https://github.com/Phasetensor/CalibMap/releases/tag/v0.1.0) · [PyPI](https://pypi.org/project/calibmap/0.1.0/) · [Scientific methods](https://github.com/Phasetensor/CalibMap/blob/v0.1.0/docs/advanced.md)
+
 ### Quantitative Finance
 
 #### VintageCheck
@@ -36,9 +42,15 @@ PhaseTensor develops open-source Python libraries for quantum computing, quantit
 
 [Release v1.5.0](https://github.com/Phasetensor/CurveMetric/releases/tag/v1.5.0) · [PyPI](https://pypi.org/project/curvemetric/1.5.0/) · [Scientific methods](https://github.com/Phasetensor/CurveMetric/blob/v1.5.0/docs/advanced.md)
 
+#### SurfaceCheck
+
+[SurfaceCheck](https://github.com/Phasetensor/SurfaceCheck) validates European option quotes and implied volatility surfaces under explicit deterministic discounting and carry assumptions. It includes implied volatility inversion, butterfly and calendar arbitrage diagnostics, SVI and restricted SSVI calibration, risk-neutral density and local volatility diagnostics, constrained finite-grid repair and historical surface analysis. It integrates with VintageCheck and CurveMetric.
+
+[Release v0.1.0](https://github.com/Phasetensor/SurfaceCheck/releases/tag/v0.1.0) · [PyPI](https://pypi.org/project/surfacecheck/0.1.0/) · [Scientific methods](https://github.com/Phasetensor/SurfaceCheck/blob/v0.1.0/docs/methodology.md)
+
 ## Research roadmap
 
-The first four libraries are publicly released. The next planned research projects are CalibMap (quantum calibration analytics) and SurfaceCheck (volatility surface validation). Further candidates span quantum circuit mapping, numerical PDE methods, computational chemistry and tensor contraction.
+Six libraries are publicly released across two complementary research suites. The current phase focuses on maintenance, reproducibility, external feedback and adoption. Future candidates span quantum circuit mapping, numerical PDE methods, computational chemistry and tensor contraction.
 
 [Research roadmap](https://github.com/Phasetensor/.github/blob/main/standards/ROADMAP.md)
 
@@ -51,4 +63,4 @@ The first four libraries are publicly released. The next planned research projec
 
 ## Availability
 
-All four released libraries are available on PyPI under the Apache 2.0 license. See individual repositories for installation instructions, supported environments, evidence and limitations.
+All six released libraries are available on PyPI under the Apache 2.0 license. See individual repositories for installation instructions, supported environments, evidence and limitations.
