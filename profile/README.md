@@ -1,6 +1,8 @@
-# PhaseTensor
+<p align="center">
+  <img src="assets/logo.png" alt="PhaseTensor" width="600">
+</p>
 
-**Scientific software for computational research.**
+<p align="center"><strong>Scientific software for computational research.</strong></p>
 
 PhaseTensor develops Python libraries for researchers and developers in quantum computing and computational science. Our focus is on practical research problems, statistical reliability, and reproducible experiments.
 
