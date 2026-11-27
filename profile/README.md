@@ -6,7 +6,7 @@
 
 PhaseTensor develops Python libraries for researchers and developers in quantum computing and computational science. Our focus is on practical research problems, statistical reliability, and reproducible experiments.
 
-Quantum computing is our initial research focus. Applications in quantitative finance and computational chemistry are under evaluation.
+Quantum computing is our initial research focus. Our quantitative finance work focuses on validating interest-rate curves and measuring calibration risk. Computational chemistry applications are under evaluation.
 
 ## Current projects
 
@@ -25,6 +25,10 @@ The objective is to determine when alternative allocation strategies improve est
 ### BornLens
 
 [BornLens](https://github.com/Phasetensor/BornLens) compares the same Pauli observable on two circuit versions. It reports whether the difference is within tolerance, beyond tolerance or inconclusive. The repository includes a Qiskit simulator adapter and [reproducible benchmarks](https://github.com/Phasetensor/BornLens/tree/main/benchmarks).
+
+### CurveMetric
+
+CurveMetric helps fixed-income researchers assess how calibration quotes and interpolation choices affect discount factors, forward rates and portfolio valuations. It includes calibration stability diagnostics, uncertainty propagation, historical curve PCA and separate discounting and projection risk. The repository includes analytical tests, QuantLib comparisons and reproducible benchmarks. [Repository](https://github.com/Phasetensor/CurveMetric) · [Scientific methods and results](https://github.com/Phasetensor/CurveMetric/blob/main/docs/advanced.md) · [Releases](https://github.com/Phasetensor/CurveMetric/releases)
 
 ## Research principles
 
