@@ -28,6 +28,12 @@ PhaseTensor develops open-source Python libraries for quantum computing, quantit
 
 [Release v0.1.0](https://github.com/Phasetensor/CalibMap/releases/tag/v0.1.0) · [PyPI](https://pypi.org/project/calibmap/0.1.0/) · [Scientific methods](https://github.com/Phasetensor/CalibMap/blob/v0.1.0/docs/advanced.md)
 
+#### MarkovQ
+
+[MarkovQ](https://github.com/Phasetensor/MarkovQ) unifies classical stochastic processes and quantum graph dynamics across 25 functional areas, including Markov chains, first-passage analysis, discrete- and continuous-time quantum walks, Szegedy quantization, open quantum systems, biological network ranking and sparse and matrix-free simulation. It integrates with ShotWeave, BornLens and CalibMap, with independent Qiskit and QuTiP reference tests and reproducible simulation benchmarks. Hardware and broader biological validation remain future research directions.
+
+[Release v0.1.0](https://github.com/Phasetensor/MarkovQ/releases/tag/v0.1.0) · [PyPI](https://pypi.org/project/markovq/0.1.0/) · [Scientific acceptance](https://github.com/Phasetensor/MarkovQ/blob/v0.1.0/docs/final-acceptance.md)
+
 ### Quantitative Finance
 
 #### VintageCheck
@@ -50,7 +56,7 @@ PhaseTensor develops open-source Python libraries for quantum computing, quantit
 
 ## Research roadmap
 
-Six libraries are publicly released across two complementary research suites. The current phase focuses on maintenance, reproducibility, external feedback and adoption. Future candidates span quantum circuit mapping, numerical PDE methods, computational chemistry and tensor contraction.
+Seven libraries are publicly released across two complementary research suites. The current phase focuses on maintenance, reproducibility, external feedback and adoption. Future candidates span quantum circuit mapping, numerical PDE methods, computational chemistry and tensor contraction.
 
 [Research roadmap](https://github.com/Phasetensor/.github/blob/main/standards/ROADMAP.md)
 
@@ -63,4 +69,4 @@ Six libraries are publicly released across two complementary research suites. Th
 
 ## Availability
 
-All six released libraries are available on PyPI under the Apache 2.0 license. See individual repositories for installation instructions, supported environments, evidence and limitations.
+All seven released libraries are available on PyPI under the Apache 2.0 license. See individual repositories for installation instructions, supported environments, evidence and limitations.
