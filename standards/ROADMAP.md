@@ -10,12 +10,13 @@
 | CurveMetric | Fixed-income curve diagnostics and risk | [v1.5.0](https://github.com/Phasetensor/CurveMetric/releases/tag/v1.5.0) |
 | CalibMap | Quantum calibration analytics and drift | [v0.1.0](https://github.com/Phasetensor/CalibMap/releases/tag/v0.1.0) |
 | SurfaceCheck | Volatility surface diagnostics and no-arbitrage validation | [v0.1.0](https://github.com/Phasetensor/SurfaceCheck/releases/tag/v0.1.0) |
+| MarkovQ | Classical stochastic processes and quantum graph dynamics | [v0.1.0](https://github.com/Phasetensor/MarkovQ/releases/tag/v0.1.0) |
 
 Consolidation refers to the completed release cycles, not universal scientific validation or the completion of all future research.
 
 ## Current phase
 
-Maintenance, reproducibility, external feedback and adoption of the six released libraries. New library development is paused.
+Maintenance, reproducibility, external feedback and adoption of the seven released libraries. New library development is paused.
 
 ## Subsequent candidates
 
